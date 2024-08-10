@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="assets/styles/responsive.css">
         <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
         <link rel="stylesheet" href="assets/styles/loader.css">
-        <title>prueba</title>
+        <title>EDG Ballons</title>
     </head>
 
     <body>
