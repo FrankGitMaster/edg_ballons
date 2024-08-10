@@ -67,11 +67,35 @@
                         </div>
                     </div>
                 </div>
-            </div>			
+            </div>	
+        </section>
+        <section id="section_contacto">
+            <div id="means_contact">
+                <h1 class="section_name">cont&aacute;ctanos</h1>
+                <div id="icons">
+                    <a href="url">
+                        <img src="assets/images/icon_whatsaap.png" alt="Whatsaap"/>
+                    </a>
+                    <a href="url">
+                        <img src="assets/images/icon_instagram.png" alt="Whatsaap"/>
+                    </a>
+                    <a href="url">
+                        <img src="assets/images/icon_facebook.png" alt="Whatsaap"/>
+                    </a>
+                    <a href="url">
+                        <img src="assets/images/icon_correo.png" alt="Whatsaap"/>
+                    </a>
+                </div>
+                <div id="aditional_contact_info">
+                    <p>Solucionamos inquietudes en <strong>WhatsApp: Lunes a viernes</strong> de 8:00am a 5:00pm <strong>sabados</strong> de 9:000am a 12:00pm</p>
+                </div>
+                <img id="logo_contacto" src="assets/images/logo.png" alt="Logo EDG Ballons"/>
+            </div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.39472090616!2d-74.2726252729899!3d4.648620643478048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1723312161269!5m2!1ses!2sco"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
         <?php include('includes/js.html'); ?>
         <script src="assets/js/scroll_header.js"></script>
-
     </body>
-
 </html>
