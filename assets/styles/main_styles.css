@@ -607,8 +607,8 @@ section {
 }
 
 .navbar_menu li a:hover {
-  color: #ffdd5f;
-  border-bottom: 3px solid #ffdd5f;
+  color: f0c233;
+  border-bottom: 3px solid f0c233;
   padding-bottom: 0;
 }
 
@@ -1945,7 +1945,8 @@ input:valid::-webkit-input-placeholder {
 }
 
 .Products:hover,
-.mi_logo:hover {
+.mi_logo:hover,
+#icons img:hover{
   cursor: pointer;
   animation-name: myanimation;
   animation-duration: 0.3s;
