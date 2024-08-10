@@ -102,3 +102,58 @@ section{
     font-size: 1.25rem;
     margin-bottom: 0;
 }
+#section_contacto{
+    background-color: #71dde8;
+    flex-direction: row;
+    border-top: solid 10px #f0c233;
+}
+#section_contacto .section_name{
+    display: inline-block;
+    border: none;
+}
+#section_contacto > div{
+    flex-basis: 50%;
+    padding: 15px;
+}
+#means_contact > *{
+    margin: 20px 0;
+}
+#icons{
+    display: flex;
+    justify-content: space-around;
+}
+#icons a{
+    display: inline-block;
+    width: max-content;
+}
+#icons img{
+    width: 70px;
+    box-shadow: 0px 17px 26px -8px rgba(32, 32, 32, 0.6);
+    border-radius: 50%;
+}
+#aditional_contact_info p{
+    color: #282828;
+    font-size: 20px;
+}
+#section_contacto iframe{
+    width: 100%;
+    height: 500px;
+    max-width: 600px;
+    border: solid 5px #fff;
+    border-radius: .25rem;
+    box-shadow: 0px 17px 26px -8px rgba(32, 32, 32, 1);
+}
+#logo_contacto{
+    width: 200px;
+}
+@media (max-width: 768px){
+    #section_categorias .Products{
+        flex-basis: 100%;
+    }
+    #section_contacto{
+        flex-direction: column;
+    }
+    #map{
+        width: 100%
+    }
+}
