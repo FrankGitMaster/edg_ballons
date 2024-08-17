@@ -40,7 +40,7 @@
                             <h5 class="card-title card_title">Decoraci&oacute;n</h5>
                         </div>
                         <div>
-                            <img class="card-img-top" src="assets/images/categoria_1.webp" alt="" style="max-width: 200px;">
+                            <img class="card-img-top" src="assets/images/categoria_1.png" alt="" style="max-width: 200px;">
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                             <h5 class="card-title card_title">globos</h5>
                         </div>
                         <div>
-                            <img class="card-img-top" src="assets/images/categoria_1.webp" alt="" style="max-width: 200px;">
+                            <img class="card-img-top" src="assets/images/categoria_2.png" alt="" style="max-width: 200px;">
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                             <h5 class="card-title card_title">variedades</h5>
                         </div>
                         <div>
-                            <img class="card-img-top" src="assets/images/categoria_1.webp" alt="" style="max-width: 200px;">
+                            <img class="card-img-top" src="assets/images/categoria_3.png" alt="" style="max-width: 200px;">
                         </div>
                     </div>
                 </div>
@@ -70,16 +70,16 @@
             <div id="means_contact">
                 <h1 class="section_name">cont&aacute;ctanos</h1>
                 <div id="icons">
-                    <a href="url">
+                    <a href="https://web.whatsapp.com/" target="_blank">
                         <img src="assets/images/icon_whatsaap.png" alt="Whatsaap"/>
                     </a>
-                    <a href="url">
+                    <a href="https://www.instagram.com/" target="_blank">
                         <img src="assets/images/icon_instagram.png" alt="Whatsaap"/>
                     </a>
-                    <a href="url">
+                    <a href="https://www.facebook.com/" target="_blank">
                         <img src="assets/images/icon_facebook.png" alt="Whatsaap"/>
                     </a>
-                    <a href="url">
+                    <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=158&ct=1723917997&rver=7.0.6738.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26cobrandid%3dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26culture%3des-co%26country%3dco%26RpsCsrfState%3d63726fb1-7dc3-9fe4-c416-5b3024d03118&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c" target="_blank">
                         <img src="assets/images/icon_correo.png" alt="Whatsaap"/>
                     </a>
                 </div>
