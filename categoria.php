@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +13,6 @@
         <link rel="stylesheet" href="assets/styles/loader.css">
         <title>EDG BALLONS</title>
     </head>
-
     <body>
         <div class="page-loading active">
             <div class="page-loading-inner">
@@ -25,29 +23,7 @@
         <?php
         include('funciones/funciones_tienda.php');
         include('header.php');
-// Captura la URL actual
-        $currentUrl = $_SERVER['REQUEST_URI'];
-        if (strpos($currentUrl, 'categoria.php') !== false && isset($_GET['categoria'])) {
-            $isCategoryPage = true;
-        } else {
-            $isCategoryPage = false;
-        }
-
-        if ($isCategoryPage) {
-            ?>
-            <script>
-                document.querySelectorAll('.nav-link').forEach(link => {
-                    link.addEventListener('click', function (e) {
-                        // Evita que el enlace se siga si estamos en la página de categorías
-                        e.preventDefault();
-
-                        // Redirige a la página principal
-                        window.location.href = 'index.php'; // Cambia 'index.php' por la URL de tu página principal
-                    });
-                });
-            </script>
-            <?php
-        }
+        include('funciones/redirect_index.php');
         if (isset($_GET['categoria'])) {
             $categoria = $_GET['categoria'];
         } else {
@@ -77,12 +53,9 @@
                             </a>
                         </div>
                     </div>
-
                 <?php } ?>
             </div>
         </section>
         <?php include('includes/js.html'); ?>
-
     </body>
-
 </html>

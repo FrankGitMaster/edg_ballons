@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="assets/styles/bootstrap4/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/styles/main_styles.css">
     <link rel="stylesheet" type="text/css" href="assets/styles/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
     <link rel="stylesheet" type="text/css" href="assets/styles/single_styles.css">
     <link rel="stylesheet" href="assets/styles/loader.css">
     <title>Crea Tu Carrito de Compras Online con la Magia de PHP, JavaScript y MySQL :: Urian Viera </title>
@@ -23,11 +24,12 @@
         </div>
     </div>
 
-    <div class="super_container  mt-5 pt-5">
+    <div class="super_container">
         <?php
         include('modalEliminarProduct.php');
         include('funciones/funciones_tienda.php');
         include('header.php');
+        include('./funciones/redirect_index.php');
         ?>
 
         <div class="container mt-5 pt-5">
