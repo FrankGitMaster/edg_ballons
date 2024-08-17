@@ -39,6 +39,7 @@ body{
     display: flex;
 }
 #btn_ver_mas{
+    display: none;
     position: absolute;
     bottom: 10%;
     left: 0;
