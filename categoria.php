@@ -36,7 +36,7 @@
             <div class="products_row row align-items-center">
                 <?php while ($dataProduct = mysqli_fetch_array($resultadoProductos)) { ?>
                     <div class="col-6 col-md-3 mt-5 text-center Products">
-                        <div class="card" style="max-height: 400px !important; min-height: 400px !important;">
+                        <div class="card">
                             <div>
                                 <img class="card-img-top" src="<?php echo $dataProduct["foto1"]; ?>" alt="<?php echo $dataProduct['nameProd']; ?>" style="max-width: 200px;">
                             </div>

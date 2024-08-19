@@ -32,7 +32,7 @@
         include('./funciones/redirect_index.php');
         ?>
 
-        <div class="container mt-5 pt-5">
+        <div id="carrito_container">
             <?php
             $miCarrito = mi_carrito_de_compra($con);
             if ($miCarrito && mysqli_num_rows($miCarrito) > 0) { ?>
@@ -85,7 +85,7 @@
                                     <?php  } ?>
                                     <tr style="background-color: #fff !important;">
                                         <td colspan="4"></td>
-                                        <td style="color:#fff; background-color: #ff4545 !important;">
+                                        <td style="color:#fff; background-color: #d43b6a !important;">
                                             Total a Pagar:
                                             <span id="totalPuntos">
                                                 $ <?php echo totalAcumuladoDeuda($con); ?>
