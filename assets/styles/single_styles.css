@@ -346,7 +346,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  border: solid 2px #fe4c50;
+  border: solid 2px #d43b6a;
   content: "";
   visibility: hidden;
 }
@@ -423,7 +423,7 @@ section {
 .product_price {
   display: inline-block;
   font-size: 24px;
-  color: #fe4c50;
+  color: #d43b6a;
   font-weight: 500;
   line-height: 30px;
   margin-top: 2px;
@@ -457,8 +457,6 @@ section {
 }
 .quantity {
   width: 100%;
-  height: 40px;
-  margin-top: 23px;
 }
 .quantity_selector {
   text-align: center;
@@ -486,7 +484,7 @@ section {
   cursor: pointer;
 }
 .product_favorite:hover::after {
-  color: #fe4c50;
+  color: #d43b6a;
 }
 .product_favorite::after {
   font-family: "FontAwesome";
@@ -495,7 +493,7 @@ section {
 }
 .product_favorite.active::after {
   content: "\f004";
-  color: #fe4c50;
+  color: #d43b6a;
 }
 
 /*********************************
@@ -531,8 +529,8 @@ section {
   color: #b5aec4;
 }
 .tab.active span {
-  color: #fe4c50;
-  border-bottom: solid 1px #fe4c50;
+  color: #d43b6a;
+  border-bottom: solid 1px #d43b6a;
 }
 .tab_container {
   width: 100%;
@@ -553,8 +551,8 @@ section {
 }
 .tab_title h4 {
   display: inline-block;
-  color: #fe4c50;
-  border-bottom: solid 1px #fe4c50;
+  color: #d43b6a;
+  border-bottom: solid 1px #d43b6a;
 }
 .tab_text_block {
   margin-bottom: 133px;
@@ -619,7 +617,7 @@ section {
   padding-left: 30px;
 }
 .review_date {
-  color: #fe4c50;
+  color: #d43b6a;
   margin-top: -4px;
 }
 .user_name {
@@ -722,7 +720,7 @@ section {
 }
 .benefit_icon i {
   font-size: 30px;
-  color: #fe4c50;
+  color: #d43b6a;
 }
 .benefit_content {
   padding-left: 22px;
@@ -772,7 +770,7 @@ section {
   width: 160px;
   height: 46px;
   border: none;
-  background: #fe4c50;
+  background: #d43b6a;
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;

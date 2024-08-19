@@ -1,5 +1,5 @@
 .button {
-  --background: #fe4c50;
+  --background: #d43b6a;
   --text: #fff;
   --cart: #fff;
   --tick: var(--background);
@@ -17,6 +17,14 @@
   background: var(--background);
   transform: scale(var(--scale, 1));
   transition: transform 0.4s cubic-bezier(0.36, 1.01, 0.32, 1.27);
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.button:hover {
+    background: #f0c233 !important;
 }
 .button:active {
   --scale: 0.95;

@@ -79,8 +79,11 @@ section{
     align-items: center;
 }
 #section_productos,
-#section_categorias{
+#section_categorias,
+#detalles_producto_container,
+#carrito_container{
     padding: 30px 30px 30px;
+    margin: 0;
 }
 #section_categorias .products_row{
     justify-content: center;
@@ -146,6 +149,9 @@ section{
 }
 #logo_contacto{
     width: 200px;
+}
+.card-title{
+    margin-bottom: 5px;
 }
 @media (max-width: 768px){
     #section_categorias .Products{
