@@ -29,7 +29,7 @@
             <button id="btn_ver_mas">ver m&aacute;s</button>
         </section>
         <section id="nosotros_page">
-            <img src="assets/images/banner_principal.jpg" alt="">
+            <img src="assets/images/nosotros.jpg" alt="">
         </section>
         <section id="section_categorias">
             <h1 class="section_name">productos</h1>
